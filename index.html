@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>ToDo - List</title>
 </head>
 <body>
-    <div>
-        <input placeholder="Digite uma tarefa.">
-        <button>Adicionar</button>
+    <div class="container">
+        <input class="input-task" placeholder="Digite uma tarefa...">
+        <button class="button-add-task">Adicionar</button>
+
+        <ul class="list-tasks">
+            <li class="task">
+                <img src="img/checked.png" alt="Concluir-Tarefa">
+                <p>Tarefa 1</p>
+                <img src="img/trash.png" alt="Excluir-Tarefa">
+            </li>
+
+            <li class="task">
+                <img src="img/checked.png" alt="Concluir-Tarefa">
+                <p>Tarefa 2</p>
+                <img src="img/trash.png" alt="Excluir-Tarefa">
+            </li>
+        </ul>
     </div>
 </body>
 </html>
