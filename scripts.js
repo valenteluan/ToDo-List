@@ -5,10 +5,14 @@ const listaCompleta = document.querySelector('.list-tasks');
 let minhaListaDeItens = [];
 
 function adicionarNovaTarefa() {
-    minhaListaDeItens.push({
-        tarefa: input.value,
-        concluida: false
-    });
+    if (input.value == '') {
+        alert("Digite um tarefa!")
+    } else {
+        minhaListaDeItens.push({
+            tarefa: input.value,
+            concluida: false
+        });
+    }
 
     input.value = '';
 
