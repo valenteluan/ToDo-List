@@ -84,3 +84,9 @@ img {
     background-color: #F63E24;
     text-decoration: line-through;
 }
+
+.titulo {
+    padding: 15px;
+    font-size: 36px;
+    color: #F63E24;
+}
